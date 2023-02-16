@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.section-1 > h1{
+    text-align: center;
+    padding: 40px;
+    color: #e53170;
+    font-family: 'Fredoka One', cursive;
+}
+
+.section-1 > p{
+    text-align: center;
+}
+
+.card{
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    box-shadow: 0 0 7px black;
+    float: left;
+    margin: 40px 15px 0 15px;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.card .image{
+    width: 25%;
+    vertical-align: middle;
+}
+
+.card .description{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.description > h4{
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+}
+
+.description > div{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.description > a{
+    color: #58adce;
+    text-decoration: none;
+}
